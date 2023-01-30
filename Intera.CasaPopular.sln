@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{B2D1CCB9-7AAB-45B0-B85C-1EAEE327AD11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{1CB66548-9D51-4849-BE68-85F55ADE8043}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{F687D70D-CBE4-4447-9807-DBA98A4A27C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infraestructure", "4 - Infraestructure", "{F03BDB53-1DFD-4234-AAF3-1C801588C18E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Entities", "5 - Entities", "{4FB039DB-1CBF-4F15-A77F-DCE1366CE479}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intera.CasaPopular.Entities", "Entities\Intera.CasaPopular.Entities.csproj", "{E346512F-5D99-4B1E-94DF-8AE0A5157F8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intera.CasaPopular.Infraestructure", "Infraestructure\Intera.CasaPopular.Infraestructure.csproj", "{827024A6-1722-4694-8217-3E9CB79CD4EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intera.CasaPopular.Domain", "Domain\Intera.CasaPopular.Domain.csproj", "{712CC360-5DE1-4D94-A393-F78481CC2372}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intera.CasaPopular.ApplicationApp", "ApplicationApp\Intera.CasaPopular.ApplicationApp.csproj", "{5F648008-9BA9-4523-8128-B29797173F05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intera.CasaPopular.Api", "Intera.CasaPopular.Api\Intera.CasaPopular.Api.csproj", "{536A4177-5372-490F-8299-ADC9E5E84A49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DAB9190A-F898-438A-980A-C8C902385B92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intera.CasaPopular.ApplicationApp.Test", "Intera.CasaPopular.ApplicationApp.Test\Intera.CasaPopular.ApplicationApp.Test.csproj", "{18B4CDC7-AD79-4CD1-9E89-BF3DBF0E21FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E346512F-5D99-4B1E-94DF-8AE0A5157F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E346512F-5D99-4B1E-94DF-8AE0A5157F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E346512F-5D99-4B1E-94DF-8AE0A5157F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E346512F-5D99-4B1E-94DF-8AE0A5157F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{827024A6-1722-4694-8217-3E9CB79CD4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827024A6-1722-4694-8217-3E9CB79CD4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827024A6-1722-4694-8217-3E9CB79CD4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827024A6-1722-4694-8217-3E9CB79CD4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712CC360-5DE1-4D94-A393-F78481CC2372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712CC360-5DE1-4D94-A393-F78481CC2372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712CC360-5DE1-4D94-A393-F78481CC2372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712CC360-5DE1-4D94-A393-F78481CC2372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F648008-9BA9-4523-8128-B29797173F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F648008-9BA9-4523-8128-B29797173F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F648008-9BA9-4523-8128-B29797173F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F648008-9BA9-4523-8128-B29797173F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536A4177-5372-490F-8299-ADC9E5E84A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536A4177-5372-490F-8299-ADC9E5E84A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536A4177-5372-490F-8299-ADC9E5E84A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536A4177-5372-490F-8299-ADC9E5E84A49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B4CDC7-AD79-4CD1-9E89-BF3DBF0E21FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B4CDC7-AD79-4CD1-9E89-BF3DBF0E21FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B4CDC7-AD79-4CD1-9E89-BF3DBF0E21FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B4CDC7-AD79-4CD1-9E89-BF3DBF0E21FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E346512F-5D99-4B1E-94DF-8AE0A5157F8E} = {4FB039DB-1CBF-4F15-A77F-DCE1366CE479}
+		{827024A6-1722-4694-8217-3E9CB79CD4EA} = {F03BDB53-1DFD-4234-AAF3-1C801588C18E}
+		{712CC360-5DE1-4D94-A393-F78481CC2372} = {F687D70D-CBE4-4447-9807-DBA98A4A27C2}
+		{5F648008-9BA9-4523-8128-B29797173F05} = {1CB66548-9D51-4849-BE68-85F55ADE8043}
+		{536A4177-5372-490F-8299-ADC9E5E84A49} = {B2D1CCB9-7AAB-45B0-B85C-1EAEE327AD11}
+		{18B4CDC7-AD79-4CD1-9E89-BF3DBF0E21FD} = {DAB9190A-F898-438A-980A-C8C902385B92}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FECFC5B9-A79F-4FD9-9841-291AA3CD6271}
+	EndGlobalSection
+EndGlobal

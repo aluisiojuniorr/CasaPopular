@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DomainValidationCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.NETCore.App" Version="2.2.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Intera.CasaPopular.Domain.csproj" />
+    <ProjectReference Include="..\Entities\Intera.CasaPopular.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
